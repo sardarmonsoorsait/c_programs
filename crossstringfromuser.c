@@ -11,7 +11,7 @@ int main(int argc, char const *argv[]) {
   for (rows=0;rows<size;rows++)
   {
     for(cols=0;cols<size;cols++)
-    
+      {
       if(rows==cols || rows+cols==size-1)
       {
         printf("%c",str[cols]);
@@ -19,7 +19,7 @@ int main(int argc, char const *argv[]) {
       printf(" ");
     }
     printf("\n");
-  }
 
+}
   return 0;
 }
